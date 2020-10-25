@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+* {
+font-family: 'Poppins', sans-serif;
+   transition: all 0.3s ease;
+}
+
+header {
+	height: 650px;
+	line-height: 20px;
+}
+
+.logo {
+	font-size: 30px;
+}
+
+.navbar-toggler-icon,
+.drop,
+main * a ,main * a:hover{
+	color: #f75e00;
+}
+
+h1 {
+	font-size: 55px;
+}
+p.te {
+	font-size: 30px;
+	line-height: 50px;
+}
+
+a.tex {
+	font-size: 20px;
+}
+a.dow{
+	background: #f75e00;
+}
+a.hov:hover {
+	border: 1px solid #bfbcbc;
+	background: rgba(255,255,255,0.5);
+	padding: 15px;
+	border-radius: 30px;
+    color:#fff;
+}
+
+i.scroll {
+	font-size: 40px;
+}
+a.down,
+input[type="submit"] {
+	background: #f75e00
+}
+* span {
+	color: #ff4530;
+}
